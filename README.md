@@ -15,6 +15,10 @@ On macOS:
 
     $ pipx install .
 
+Or
+
+    pipx install git+https://github.com/trbielec/csv2roam.git
+
 
 # Usage
 
