@@ -35,3 +35,21 @@ Usage:
     -r, --root-page    Create [[page]] for root values (first column)
     -c, --child-pages  Create [[page]] for child values
     --help             Show this message and exit.
+
+# Example
+
+data.csv
+
+    col1,col2,col3
+    c1r1,c2r1,c3r1
+    c1r2,c2r2,c3r2
+
+output.md
+
+    # Data Export
+    - col1:: [[c1r1]]
+      - col2:: [[c2r1]]
+      - col3:: [[c3r1]]
+    - col1:: [[c1r2]]
+      - col2:: [[c2r2]]
+      - col3:: [[c3r2]]
